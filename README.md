@@ -1,0 +1,2 @@
+# gurunavi_api
+ぐるなびAPIを利用してお店の名前やURLを取得する
