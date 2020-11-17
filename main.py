@@ -2,10 +2,10 @@
 
 import requests
 import pprint
-url = 'https://api.gnavi.co.jp/RestSearchAPI/v3/'
+url = '' #APIのURL
 params = {}
-params['keyid'] = 'd69600d69923d84722e8f750f5218525'
-params['freeword'] = '小田原駅, 肉'
+params['keyid'] = '' #キー
+params['freeword'] = '' #検索ワード
 
 response = requests.get(url, params)
 # 返ってきた情報を代入     宛先     送る情報
